@@ -9,5 +9,5 @@ target_include_directories(fmod INTERFACE
 )
 
 target_link_libraries(fmod INTERFACE
-  ${CMAKE_CURRENT_LIST_DIR}/lib/x86/fmod_vc.lib
+  ${CMAKE_CURRENT_LIST_DIR}/lib/fmod_vc.lib
 )
